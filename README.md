@@ -10,11 +10,11 @@ Required dependencies installed
 
 # Installation
 1. Clone this repository:
-   git clone https://github.com/DolevTB/PyhtonProject.git
-   cd PyhtonProject
+git clone https://github.com/DolevTB/PyhtonProject.git
+cd PyhtonProject
 
 2. Install dependencies:
-   pip install -r requirements.txt
+pip install -r requirements.txt
 
 # Usage
 Run the CLI tool with:
@@ -29,10 +29,11 @@ python main.py
 # Project Structure
 .
 ├── main.py              # Entry point for the CLI
-└── modules/
-    ├── ec2.py               # EC2 management functions
-    ├── S3.py                # S3 management functions
-    ├── Route53.py           # Route 53 management functions
-    ├── General_func.py      # Utility functions (e.g., clearing terminal)
+├── modules/
+│   ├── ec2.py               # EC2 management functions
+│   ├── S3.py                # S3 management functions
+│   ├── Route53.py           # Route 53 management functions
+│   └── General_func.py      # Utility functions (e.g., clearing terminal)
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
+
