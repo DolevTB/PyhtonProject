@@ -6,7 +6,7 @@ This project provides a CLI tool to manage AWS services, including EC2, S3, and 
 
 Before using this tool, make sure you have the following:
 
-- AWS CLI installed (installation guide)
+- AWS CLI installed [installation guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - AWS credentials configured using `aws configure`
 - Python 3 installed
 - Required dependencies installed
