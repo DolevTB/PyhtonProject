@@ -174,9 +174,10 @@ def create_hosted_zone(client):
     domain_name = ""
     flag_not_used_domain = False
     while not flag_not_used_domain:
-        while not domain_name:
+        while not domain_name or domain_name[0] == ".":
             clear_terminal()
-            domain_name = input("Enter domain name: ").strip()
+            domain_name = input("Enter domain name(must not start on \".\"): ").strip()
+            domain_name = re.sub(r'\.{2,}', '.', domain_name)
         if "." not in domain_name:
             domain_name += ".com"
         elif domain_name[-1] == ".":
