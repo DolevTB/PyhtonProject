@@ -10,6 +10,7 @@ Before using this tool, make sure you have the following:
 - AWS credentials configured using `aws configure`
 - Python 3 installed
 - Required dependencies installed
+- Make sure that every input you make is in English (other languages might crash the CLI)
 
 ## Installation
 
@@ -40,6 +41,9 @@ python main.py
 - **S3 Service**: Manage S3 buckets.
 - **Route 53 Service**: Manage DNS settings.
 - **Exit**: Quit the program.
+  
+## FLOW Chart
+![My image](images/Flow Chart AWS-Python-Project.png)
 
 ## Project Structure
 
