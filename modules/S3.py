@@ -43,7 +43,7 @@ def privacy(client, bucket_name):
         print("(Make sure you type private or public!)")
         private_key = input("Type whether S3 should be private or public: ").lower()
     if private_key == "public":
-        make_sure = input("Are you sure you want to create public bucket?\nType yes to proceed: ")
+        make_sure = input("Are you sure you want to make public bucket?\nType yes to proceed: ")
         if make_sure.lower() in sure_list:
             return set_privacy("public", client, bucket_name)
         else:
