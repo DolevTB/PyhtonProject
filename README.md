@@ -42,8 +42,8 @@ python main.py
 - **Route 53 Service**: Manage DNS settings.
 - **Exit**: Quit the program.
   
-## FLOW Chart
-![My image](images/Flow Chart AWS-Python-Project.png)
+## Flow Chart
+![My image](images/Flow%20Chart%20AWS-Python-Project.png)
 
 ## Project Structure
 
