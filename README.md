@@ -17,7 +17,7 @@ Before using this tool, make sure you have the following:
 Clone this repository:
 
 ```bash
-git clone https://github.com/DolevTB/PyhtonProject.git
+git clone https://github.com/DolevTB/PythonProject.git
 cd PyhtonProject
 ```
 
