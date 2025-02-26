@@ -34,6 +34,10 @@ Run the CLI tool with:
 ```bash
 python main.py
 ```
+or
+```bash
+python3 main.py
+```
 
 ## Menu Options
 
