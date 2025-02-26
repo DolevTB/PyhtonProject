@@ -18,7 +18,7 @@ Clone this repository:
 
 ```bash
 git clone https://github.com/DolevTB/PythonProject.git
-cd PyhtonProject
+cd PythonProject
 ```
 
 Install dependencies:
