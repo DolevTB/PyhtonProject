@@ -38,5 +38,7 @@ Enter your choice:
         else:
             flag_done = True
 
-
-cli()
+try:
+    cli()
+except KeyboardInterrupt:
+    exit()
