@@ -43,7 +43,7 @@ python main.py
 - **Exit**: Quit the program.
   
 ## Flow Chart
-![My image](images/Flow%20Chart%20AWS-Python-Project.jpeg)
+![My image](images/Flow%20Chart%20AWS-Python-Project.jpg)
 
 ## Project Structure
 
